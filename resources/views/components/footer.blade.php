@@ -54,7 +54,7 @@
                     <div class="row">
                         <div class="col-xl-12">
                             <div class="site-footer__bottom-inner">
-                                <p class="site-footer__bottom-text">© All Copyright 2025 by <a href="#">pearlshipping.co.in</a>
+                                <p class="site-footer__bottom-text">© All Copyright 2025 by <a href="https://pearlshipping.co.in">pearlshipping.co.in</a>. Designed by <a href="https://adsvizion.net">ADS Vizion </a>
                                 </p>
                             </div>
                         </div>
