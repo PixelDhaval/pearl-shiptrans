@@ -7,7 +7,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('assets/images/favicons/favicon-32x32.png') }}">
     <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('assets/images/favicons/favicon-16x16.png') }}">
     <link rel="manifest" href="{{ asset('assets/images/favicons/site.webmanifest') }}">
-    <meta name="description" content="Insur HTML 5 Template ">
+    <meta name="description" content="Pearl Shiptrans Pvt Ltd offers reliable shipping, logistics, and freight services, including stevedoring, vessel agency, chartering, customs clearance, warehousing, road & rail haulage, and more. Ensuring seamless global trade with end-to-end solutions.">
 
     <!-- fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
