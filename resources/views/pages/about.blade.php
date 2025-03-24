@@ -51,10 +51,6 @@ $script = '<script src="' . asset('assets/js/insur.js') . '"></script>';
 </section>
 <!--About Four End-->
 
-<!--Brand One Start-->
-<x-brandone />
-<!--Brand One End-->
-
 <!--Testimonial Two Start-->
 <section class="testimonial-two">
     <div class="testimonial-two-shape-1"
