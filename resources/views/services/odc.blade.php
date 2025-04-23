@@ -1,9 +1,9 @@
 @extends('layout.layout')
 
 @php
-$headTitle = 'Rail Haulage';
+$headTitle = 'Over Dimension Cargo Handling';
 $title = 'Services';
-$subTitle = 'Rail Haulage';
+$subTitle = 'Over Dimension Cargo Handling';
 $counterone = 'false';
 $css = '
 <link rel="stylesheet" href="' . asset('assets/vendors/insur-three-icon/style.css') . '" />';
@@ -29,7 +29,8 @@ $script = '<script src="' . asset('assets/js/insur.js') . '"></script>';
                             <li><a href="{{ route('customClearance') }}">Custom Clearance<span
                                         class="icon-right-arrow1"></span></a></li>
                             <li><a href="{{ route('warehousingStorage') }}">Warehousing &
-                                    Storage<span
+                                    class="icon-right-arrow1"></span></a></li>
+                            <li><a href="{{ route('railHaulage') }}">Rail Haulage<span
                                         class="icon-right-arrow1"></span></a></li>
                             <li><a href="{{ route('roadHaulage') }}">Road Haulage<span
                                         class="icon-right-arrow1"></span></a></li>
@@ -39,8 +40,6 @@ $script = '<script src="' . asset('assets/js/insur.js') . '"></script>';
                                         class="icon-right-arrow1"></span></a></li>
                             <li><a href="{{ route('cranesAndForklifts') }}">Cranes &
                                     Forklifts<span
-                                        class="icon-right-arrow1"></span></a></li>
-                            <li><a href="{{ route('odc') }}">Over Dimension Cargo Handling<span
                                         class="icon-right-arrow1"></span></a></li>
                             <li><a href="{{ route('bondedWarehouse') }}">Bonded Warehouse Services<span
                                         class="icon-right-arrow1"></span></a></li>
@@ -68,27 +67,27 @@ $script = '<script src="' . asset('assets/js/insur.js') . '"></script>';
             <div class="col-xl-8 col-lg-7">
                 <div class="insurance-details__right">
                     <div class="insurance-details__img-1 mb-3">
-                        <img src="{{ asset('assets/images/resources/rail-1.jpg') }}" alt="">
+                        <img src="{{ asset('assets/images/resources/odc-1.jpg') }}" alt="">
                     </div>
-                    <p class="insurance-details__text-1">At Pearl Shiptrans Pvt Ltd, we provide efficient and reliable rail haulage services, ensuring the safe, timely, and cost-effective transportation of goods across long distances. Rail transport offers a high-capacity, environmentally friendly, and economical solution for moving bulk, breakbulk, and containerized cargo.</p>
-                    <p class="insurance-details__text-2">Seamless & Cost-Effective Cargo Transportation by Rail</p>
-                    <p class="insurance-details__text-3">Our strong network with rail operators and logistics partners ensures smooth coordination, reduced transit times, and optimized freight costs for businesses of all sizes.</p>
-                    <h2 class="section-title-four__title">Why Choose Our Rail Haulage Services?</h2>
+                    <p class="insurance-details__text-1">At Pearl Shiptrans Pvt Ltd, we specialize in the safe and efficient handling of Over Dimension Cargo (ODC)—cargo that exceeds standard transportation dimensions. Whether it’s oversized machinery, infrastructure components, or heavy equipment, we provide end-to-end project logistics solutions tailored to the complexity of ODC movement.</p>
+                    <p class="insurance-details__text-2">Expert Handling of Oversized & Heavy Lift Cargo</p>
+                    <p class="insurance-details__text-3">Our seasoned team, backed by the latest handling equipment and multimodal transport capabilities, ensures seamless execution from origin to destination, even in challenging environments.</p>
+                    <h2 class="section-title-four__title">Why Choose Our ODC Handling Services?</h2>
                     <div class="insurance-details__opportunities">
                         <div class="insurance-details__opportunities-img">
-                            <img src="{{ asset('assets/images/resources/rail-2.jpg') }}"
+                            <img src="{{ asset('assets/images/resources/odc-2.jpg') }}"
                                 alt="">
 
                         </div>
                         <div class="insurance-details__opportunities-points-box">
-                            <h3 class="insurance-details__opportunities-points-title">Efficient & Cost-Effective Transport</h3>
+                            <h3 class="insurance-details__opportunities-points-title">Specialized Transport Solutions</h3>
                             <ul class="about-seven__points list-unstyled">
                                 <li>
                                     <div class="icon">
                                         <span class="icon-tick"></span>
                                     </div>
                                     <div class="text">
-                                        <p>Ideal for bulk, heavy, and long-distance shipments</p>
+                                        <p>Route survey and feasibility analysis</p>
                                     </div>
                                 </li>
                                 <li>
@@ -96,7 +95,7 @@ $script = '<script src="' . asset('assets/js/insur.js') . '"></script>';
                                         <span class="icon-tick"></span>
                                     </div>
                                     <div class="text">
-                                        <p>Lower transportation costs compared to road and air freight
+                                        <p>Customized trailers and heavy-lift vehicles
                                         </p>
                                     </div>
                                 </li>
@@ -105,7 +104,7 @@ $script = '<script src="' . asset('assets/js/insur.js') . '"></script>';
                                         <span class="icon-tick"></span>
                                     </div>
                                     <div class="text">
-                                        <p>Reduced carbon footprint for sustainable logistics
+                                        <p>Road, rail, and coastal shipping coordination
                                         </p>
                                     </div>
                             </ul>
@@ -118,10 +117,10 @@ $script = '<script src="' . asset('assets/js/insur.js') . '"></script>';
                                 <div class="insurance-details__points-icon">
                                     <span class="icon-easy-to-use"></span>
                                 </div>
-                                <h3 class="insurance-details__points-title">Rail Transport Partnerships</h3>
+                                <h3 class="insurance-details__points-title">Flexible Storage Solutions</h3>
                             </div>
                             <div class="insurance-details__points-right">
-                                <p>Strong partnerships with rail operators for smooth transit</p>
+                                <p>Short-term and long-term storage tailored to your needs</p>
                             </div>
                         </li>
                         <li>
@@ -129,10 +128,10 @@ $script = '<script src="' . asset('assets/js/insur.js') . '"></script>';
                                 <div class="insurance-details__points-icon">
                                     <span class="icon-contract"></span>
                                 </div>
-                                <h3 class="insurance-details__points-title">Live Tracking & Monitoring</h3>
+                                <h3 class="insurance-details__points-title">Cargo Handling Efficiency</h3>
                             </div>
                             <div class="insurance-details__points-right">
-                                <p>Real-time tracking and shipment monitoring</p>
+                                <p>Efficient handling of bulk, breakbulk, and containerized cargo</p>
                             </div>
                         </li>
                         <li>
@@ -140,14 +139,14 @@ $script = '<script src="' . asset('assets/js/insur.js') . '"></script>';
                                 <div class="insurance-details__points-icon">
                                     <span class="icon-fund"></span>
                                 </div>
-                                <h3 class="insurance-details__points-title">Seamless Multimodal Solutions</h3>
+                                <h3 class="insurance-details__points-title">Integrated Logistics Support</h3>
                             </div>
                             <div class="insurance-details__points-right">
-                                <p>Integrated multimodal solutions for seamless cargo movement</p>
+                                <p>Seamless integration with logistics and distribution services</p>
                             </div>
                         </li>
                     </ul>
-                    <p class="insurance-details__text-2">With Pearl Shiptrans, move your cargo efficiently, safely, and affordably with our expert rail haulage solutions!</p>
+                    <p class="insurance-details__text-2">With over three decades of experience in logistics, Pearl Shiptrans Pvt Ltd delivers confidence and precision in ODC handling, helping industries move what others can't.</p>
                 </div>
             </div>
         </div>

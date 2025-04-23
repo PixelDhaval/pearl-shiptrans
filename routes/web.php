@@ -24,6 +24,8 @@ Route::prefix('/services')->group(function () {
         Route::get('/freight-forwarding', 'freightForwarding')->name('freightForwarding');
         Route::get('/cfs', 'cfs')->name('cfs');
         Route::get('/cranes-and-forklifts', 'cranesAndForklifts')->name('cranesAndForklifts');
+        Route::get('over-dimension-cargo-handling', 'odc')->name('odc');
+        Route::get('bonded-warehouse-services', 'bondedWarehouse')->name('bondedWarehouse');
     });
 });
 // news

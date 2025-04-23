@@ -67,6 +67,8 @@
                                             <li><a href="{{ route('roadHaulage') }}">Road Haulage</a></li>
                                             <li><a href="{{ route('freightForwarding') }}">Freight Forwarding</a></li>
                                             <li><a href="{{ route('cfs') }}">CFS</a></li>
+                                            <li><a href="{{ route('odc') }}">ODC Handling</a></li>
+                                            <li><a href="{{ route('bondedWarehouse') }}">Bonded Warehouse</a></li>
                                             <li><a href="{{ route('cranesAndForklifts') }}">Cranes &
                                                     Forklifts</a></li>
                                         </ul>

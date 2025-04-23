@@ -39,6 +39,10 @@ $script = '<script src="' . asset('assets/js/insur.js') . '"></script>';
                                         class="icon-right-arrow1"></span></a></li>
                             <li><a href="{{ route('cfs') }}">CFS<span
                                         class="icon-right-arrow1"></span></a></li>
+                            <li><a href="{{ route('odc') }}">Over Dimension Cargo Handling<span
+                                        class="icon-right-arrow1"></span></a></li>
+                            <li><a href="{{ route('bondedWarehouse') }}">Bonded Warehouse Services<span
+                                        class="icon-right-arrow1"></span></a></li>
                         </ul>
                     </div>
 

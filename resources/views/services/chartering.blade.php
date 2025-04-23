@@ -40,6 +40,10 @@ $script = '<script src="' . asset('assets/js/insur.js') . '"></script>';
                             <li><a href="{{ route('cranesAndForklifts') }}">Cranes &
                                     Forklifts<span
                                         class="icon-right-arrow1"></span></a></li>
+                            <li><a href="{{ route('odc') }}">Over Dimension Cargo Handling<span
+                                        class="icon-right-arrow1"></span></a></li>
+                            <li><a href="{{ route('bondedWarehouse') }}">Bonded Warehouse Services<span
+                                        class="icon-right-arrow1"></span></a></li>
 
                         </ul>
                     </div>
@@ -68,7 +72,7 @@ $script = '<script src="' . asset('assets/js/insur.js') . '"></script>';
                     </div>
                     <p class="insurance-details__text-1">At Pearl Shiptrans Pvt Ltd, we offer comprehensive vessel chartering services, connecting shipowners, charterers, and cargo traders with the most suitable vessels for their shipping needs. Whether it's bulk cargo, breakbulk, or project cargo, we ensure cost-effective, efficient, and timely transportation across global trade routes.
                     </p>
-                    <p class="insurance-details__text-2">Reliable & Tailored Vessel Charter Solutions                    </p>
+                    <p class="insurance-details__text-2">Reliable & Tailored Vessel Charter Solutions </p>
                     <p class="insurance-details__text-3">With a deep understanding of market trends, freight rates, and operational logistics, we help our clients optimize shipping costs and maximize efficiency with the right chartering solutions.</p>
                     <h2 class="section-title-four__title">Why Choose Our Chartering Services?</h2>
                     <div class="insurance-details__opportunities">

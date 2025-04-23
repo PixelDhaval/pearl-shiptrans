@@ -36,7 +36,7 @@ $script = '<script src="' . asset('assets/js/insur.js') . '"></script>';
                         <div class="contact-page__call-email-content">
                             <h4>Directors</h4>
                             <p>
-                                <a href="tel:+919825062912" class="contact-page__call-number">Capt Jayveer Singh Kalra: +91 98250 62912</a>
+                                <a href="tel:+919825062912" class="contact-page__call-number">Capt Jagveer Singh Kalra: +91 98250 62912</a>
                                 <a href="tel:+919825150231" class="contact-page__call-number">Pawanjeet Singh Kalra: +91 98251 50231</a>
                             </p>
                         </div>

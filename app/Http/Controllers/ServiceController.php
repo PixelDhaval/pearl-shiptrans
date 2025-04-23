@@ -46,4 +46,13 @@ class ServiceController extends Controller
     {
         return view('services/cranesAndForklifts');
     }
+
+    public function odc()
+    {
+        return view('services/odc');
+    }
+    public function bondedWarehouse()
+    {
+        return view('services/bondedWarehouse');
+    }
 }
