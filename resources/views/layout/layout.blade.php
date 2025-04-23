@@ -12,6 +12,8 @@ $script = '<script src="' . asset('assets/vendors/ion.rangeSlider/js/ion.rangeSl
 
 <x-head rtlMode='{{ isset($rtlMode) ? $rtlMode : "" }}' headTitle='{{ isset($headTitle) ? $headTitle : "" }}' css='{!! isset($css) ? $css : "" !!}' css2='{!! isset($css2) ? $css2 : "" !!}' css3='{!! isset($css3) ? $css3 : "" !!}'/>
 
+<link rel="stylesheet" href="{{ asset('assets/css/custom.css') }}">
+
 <body class="custom-cursor <?php echo (isset($bodyClass) ? $bodyClass   : '')?>">
 
     <x-customcursor />
@@ -67,6 +69,8 @@ $script = '<script src="' . asset('assets/vendors/ion.rangeSlider/js/ion.rangeSl
     <x-searchpopup />
 
     <x-script script='{!! $script !!}' />
+
+    <script src="{{ asset('assets/js/custom.js') }}"></script>
 
 </body>
 

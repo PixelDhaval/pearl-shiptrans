@@ -46,36 +46,58 @@ $script = '<script src="' . asset('assets/js/insur.js') . '"></script>';
             <div class="col-xl-8 col-lg-7">
                 <div class="contact-page__right">
                     <div class="contact-page__form">
-                        <form action="assets/inc/sendemail" class="comment-one__form contact-form-validated" novalidate="novalidate">
+                        @if(session('success'))
+                            <div class="alert alert-success">
+                                {{ session('success') }}
+                            </div>
+                        @endif
+
+                        @if ($errors->any())
+                            <div class="alert alert-danger">
+                                <ul>
+                                    @foreach ($errors->all() as $error)
+                                        <li>{{ $error }}</li>
+                                    @endforeach
+                                </ul>
+                            </div>
+                        @endif
+
+                        <form id="contactForm" action="{{ route('contact.send') }}" method="POST" class="comment-one__form contact-form-validated" novalidate="novalidate">
+                            <div class="form-overlay">
+                                <div class="loading-spinner"></div>
+                            </div>
+                            @csrf
                             <div class="row">
                                 <div class="col-xl-6">
                                     <div class="comment-form__input-box">
-                                        <input type="text" placeholder="Your name" name="name">
+                                        <input type="text" placeholder="Your name" name="name" value="{{ old('name') }}" required>
                                     </div>
                                 </div>
                                 <div class="col-xl-6">
                                     <div class="comment-form__input-box">
-                                        <input type="email" placeholder="Email address" name="email">
+                                        <input type="email" placeholder="Email address" name="email" value="{{ old('email') }}" required>
                                     </div>
                                 </div>
                                 <div class="col-xl-6">
                                     <div class="comment-form__input-box">
-                                        <input type="text" placeholder="Phone number" name="phone">
+                                        <input type="text" placeholder="Phone number" name="phone" value="{{ old('phone') }}" required>
                                     </div>
                                 </div>
                                 <div class="col-xl-6">
                                     <div class="comment-form__input-box">
-                                        <input type="text" placeholder="Subject" name="subject">
+                                        <input type="text" placeholder="Subject" name="subject" value="{{ old('subject') }}" required>
                                     </div>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-xl-12">
                                     <div class="comment-form__input-box text-message-box">
-                                        <textarea name="message" placeholder="Write a message"></textarea>
+                                        <textarea name="message" placeholder="Write a message" required>{{ old('message') }}</textarea>
                                     </div>
                                     <div class="comment-form__btn-box">
-                                        <button type="submit" class="thm-btn comment-form__btn">Send Message</button>
+                                        <button type="submit" class="thm-btn comment-form__btn" id="submitBtn">
+                                            <span class="btn-text">Send Message</span>
+                                        </button>
                                     </div>
                                 </div>
                             </div>

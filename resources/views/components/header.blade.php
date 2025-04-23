@@ -27,9 +27,9 @@
                     </div>
                     <div class="main-header-six__top-right">
                         <div class="main-header-six__top-social">
-                            <a href="#"><i class="fab fa-facebook"></i></a>
-                            <a href="#"><i class="fab fa-linkedin"></i></a>
-                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="https://www.facebook.com/people/Pearlshiptranspvtltd/61565695813757/"><i class="fab fa-facebook"></i></a>
+                            <a href="https://www.linkedin.com/company/pearl-shiptrans-privatelimited"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://www.instagram.com/pearlshiptranspvtltd/"><i class="fab fa-instagram"></i></a>
                         </div>
                     </div>
                 </div>

@@ -7,6 +7,7 @@ use App\Http\Controllers\InsuranceController;
 use App\Http\Controllers\ShopController;
 use App\Http\Controllers\NewsController;
 use App\Http\Controllers\ServiceController;
+use App\Http\Controllers\ContactController;
 
 Route::controller(DemosController::class)->group(function () {
     Route::get('/', 'index6')->name('index');
@@ -41,3 +42,4 @@ Route::controller(PagesController::class)->group(function () {
 Route::controller(ShopController::class)->group(function () {
     Route::get('/contact', 'contact')->name('contact');
 });
+Route::post('/contact', [ContactController::class, 'submit'])->name('contact.send');

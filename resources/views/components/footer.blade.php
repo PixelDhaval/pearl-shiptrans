@@ -13,9 +13,9 @@
                                     <p class="footer-widget__about-text">We offer a full spectrum of logistics, transportation, and cargo handling services tailored to your business needs.</p>
                                 </div>
                                 <div class="site-footer__social">
-                                    <a href="#"><i class="fab fa-facebook"></i></a>
-                                    <a href="#"><i class="fab fa-linkedin"></i></a>
-                                    <a href="#"><i class="fab fa-instagram"></i></a>
+                                    <a href="https://www.facebook.com/people/Pearlshiptranspvtltd/61565695813757/"><i class="fab fa-facebook"></i></a>
+                                    <a href="https://www.linkedin.com/company/pearl-shiptrans-privatelimited/posts/?feedView=all"><i class="fab fa-linkedin"></i></a>
+                                    <a href="https://www.instagram.com/pearlshiptranspvtltd/"><i class="fab fa-instagram"></i></a>
                                 </div>
                             </div>
                         </div>
