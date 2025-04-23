@@ -10136,9 +10136,6 @@ ul {
   transition: all 500ms ease;
 }
 
-.contact-page__call-number:hover {
-  color: var(--insur-primary);
-}
 
 .contact-page__email {
   position: relative;

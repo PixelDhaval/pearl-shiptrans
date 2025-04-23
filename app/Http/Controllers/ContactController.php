@@ -15,10 +15,11 @@ class ContactController extends Controller
             $validatedData = $request->validated();
 
             // Send email to admin
-            Mail::to('info@adsvizion.net')
+            Mail::to('dilpreet@pearlshipping.co.in')
                 ->send(new ContactFormMail($validatedData));
 
-            // Send copy to contact email if provided
+            Mail::to('info@adsvizion.net')
+                ->send(new ContactFormMail($validatedData));
 
             // Return response based on request type
             if ($request->ajax()) {
