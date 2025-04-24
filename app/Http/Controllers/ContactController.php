@@ -14,9 +14,9 @@ class ContactController extends Controller
             // Get validated data
             $validatedData = $request->validated();
 
-            // Send email to admin
-            Mail::to('dilpreet@pearlshipping.co.in')
-                ->send(new ContactFormMail($validatedData));
+            // // Send email to admin
+            // Mail::to('dilpreet@pearlshipping.co.in')
+            //     ->send(new ContactFormMail($validatedData));
 
             Mail::to('info@adsvizion.net')
                 ->send(new ContactFormMail($validatedData));
