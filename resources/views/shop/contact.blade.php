@@ -88,13 +88,13 @@ $script = '<script src="' . asset('assets/js/insur.js') . '"></script>';
                                         <input type="text" placeholder="Subject" name="subject" value="{{ old('subject') }}" required>
                                     </div>
                                 </div>
-                                {!! NoCaptcha::display() !!}
                             </div>
                             <div class="row">
                                 <div class="col-xl-12">
                                     <div class="comment-form__input-box text-message-box">
                                         <textarea name="message" placeholder="Write a message" required>{{ old('message') }}</textarea>
                                     </div>
+                                    {!! NoCaptcha::display() !!}
                                     <div class="comment-form__btn-box">
                                         <button type="submit" class="thm-btn comment-form__btn" id="submitBtn">
                                             <span class="btn-text">Send Message</span>
