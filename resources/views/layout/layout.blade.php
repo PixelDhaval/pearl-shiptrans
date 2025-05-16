@@ -14,6 +14,8 @@ $script = '<script src="' . asset('assets/vendors/ion.rangeSlider/js/ion.rangeSl
 
 <link rel="stylesheet" href="{{ asset('assets/css/custom.css') }}">
 
+ {!! NoCaptcha::renderJs() !!}
+
 <body class="custom-cursor <?php echo (isset($bodyClass) ? $bodyClass   : '')?>">
 
     <x-customcursor />

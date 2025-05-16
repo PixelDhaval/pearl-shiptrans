@@ -460,6 +460,5 @@ $script = '<script src="' . asset('assets/js/insur.js') . '"></script>';
         class="google-map__two" allowfullscreen></iframe>
 </section>
 <!--Google Map End-->
- {!! NoCaptcha::renderJs() !!}
 
 @endsection
