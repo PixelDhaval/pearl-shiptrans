@@ -27,6 +27,7 @@ class ContactFormRequest extends FormRequest
             'phone' => 'required|string|max:20',
             'subject' => 'required|string|max:255',
             'message' => 'required|string',
+            'g-recaptcha-response' => 'required|captcha',
         ];
     }
 }

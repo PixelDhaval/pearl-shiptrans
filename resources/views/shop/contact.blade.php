@@ -88,6 +88,7 @@ $script = '<script src="' . asset('assets/js/insur.js') . '"></script>';
                                         <input type="text" placeholder="Subject" name="subject" value="{{ old('subject') }}" required>
                                     </div>
                                 </div>
+                                {!! NoCaptcha::display() !!}
                             </div>
                             <div class="row">
                                 <div class="col-xl-12">
@@ -459,5 +460,6 @@ $script = '<script src="' . asset('assets/js/insur.js') . '"></script>';
         class="google-map__two" allowfullscreen></iframe>
 </section>
 <!--Google Map End-->
+ {!! NoCaptcha::renderJs() !!}
 
 @endsection
